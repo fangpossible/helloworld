@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+    static-path-pattern: /static/**
+
+  #热部署配置
+  devtools:
+    restart:
+      enabled: true
